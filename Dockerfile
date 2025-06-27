@@ -2,6 +2,7 @@ FROM nodered/node-red
 
 #Install node-red-contrib-modbus nodes
 RUN npm i node-red-contrib-modbus
+RUN npm i node-red-contrib-modbus-flex-server
 
 # Copy package.json to the WORKDIR so npm builds all
 # of your added nodes modules for Node-RED
